@@ -2,7 +2,7 @@
 
 function remShortElms(inpArr) {
   let resArr = [];
-  for (item in inpArr) {
+  for (let item in inpArr) {
     if (inpArr[item].length > 3) {
       resArr.push(inpArr[item]);
     }
